@@ -10,7 +10,7 @@ class WordWrapPlugin extends BasePlugin
 
     function getVersion()
     {
-        return '1.0';
+        return '1.0.1';
     }
 
     function getDeveloper()
@@ -23,7 +23,7 @@ class WordWrapPlugin extends BasePlugin
         return 'http://github.com/mrpaulphan';
     }
     function getDocumentationUrl() {
-        return 'http://github.com/mrpaulphan/craft-plugin';
+        return 'https://github.com/mrpaulphan/word-wrap';
     }
     public function addTwigExtension()
     {
